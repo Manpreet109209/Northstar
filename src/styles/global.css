@@ -1,0 +1,24 @@
+:root {
+  --primary: #58CC02;
+  --primary-hover: #4BB200;
+  --blue: #1CB0F6;
+  --dark: #100F3E;
+  --text: #4B4B4B;
+  --text-light: #777777;
+  --border: #E5E5E5;
+  --danger: #FF4B4B;
+  --orange: #FF9600;
+  --golden: #FFC800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: var(--text);
+}

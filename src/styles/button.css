@@ -1,0 +1,33 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: none;
+}
+
+/* Primary */
+.btn.primary {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 4px 0 var(--primary-hover);
+}
+
+.btn.primary:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+/* Secondary */
+.btn.secondary {
+  background: transparent;
+  border: 2px solid var(--border);
+  color: var(--blue);
+  box-shadow: 0 4px 0 #CFCFCF;
+}
+
+.btn.secondary:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}

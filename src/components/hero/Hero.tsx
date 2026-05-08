@@ -1,0 +1,55 @@
+import "./Hero.css";
+
+import Button from "../Button";
+import HeroBadge from "./HeroBadge";
+import HeroStats from "./HeroStats";
+import HeroTerminal from "./HeroTerminal";
+
+export default function Hero() {
+  return (
+    <section className="hero">
+      <div className="hero-container">
+        
+        {/* LEFT */}
+        <div className="hero-left">
+          <HeroBadge />
+
+          <h1 className="hero-title">
+            Building
+            <span> production-focused </span>
+            software systems from a small room in Punjab.
+          </h1>
+
+          <p className="hero-description">
+            I build full-stack applications with Node.js, React, MongoDB,
+            MySQL, and Electron while preparing for Computer Science studies
+            abroad.
+            <br />
+            <br />
+            Focused on backend engineering, scalable architecture, and solving
+            real problems instead of making another “AI startup landing page”
+            with floating gradients. Humanity keeps inventing the same landing
+            page every six minutes.
+          </p>
+
+          <div className="hero-buttons">
+            <Button>View Projects</Button>
+
+            <a
+              href="https://github.com/Manpreet109209"
+              target="_blank"
+              className="github-button"
+            >
+              GitHub
+            </a>
+          </div>
+
+          <HeroStats />
+        </div>
+
+        {/* RIGHT */}
+        <HeroTerminal />
+      </div>
+    </section>
+  );
+}
