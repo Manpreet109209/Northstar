@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .cta-section {
   padding: 110px 20px;
 

@@ -11,7 +11,6 @@ Currently studying through NIOS with:
 • Chemistry
 • English
 • Computer Science
-• English
 
 Targeting strong board scores while simultaneously building practical engineering skills.
 

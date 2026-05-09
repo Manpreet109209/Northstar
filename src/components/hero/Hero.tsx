@@ -32,8 +32,8 @@ export default function Hero() {
             page every six minutes.
           </p>
 
-          <div className="hero-buttons">
-            <Button>View Projects</Button>
+          <div className="hero-buttons" >
+            <Button href="/projects">View Projects</Button>
 
             <a
               href="https://github.com/Manpreet109209"

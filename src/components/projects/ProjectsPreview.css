@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .projects-section {
   padding: 110px 20px;
   background: #f7f7f7;
